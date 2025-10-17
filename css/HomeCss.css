@@ -395,8 +395,9 @@ input {
 .haut-cinq{
     display: flex;
     justify-content: center;
-    gap:250px
-}
+    gap:250px;
+    margin-bottom: 90px;
+margin-left: 40px;}
 .right-cinq{
     font-size: 20px;
 }
@@ -587,10 +588,102 @@ gap:20px;
     padding-bottom: 5px;
 }
 
+.btn-ex{
+   
+    color: #ffffff;
+}
+.btn-as{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 15px;
+}
+.choose{
 
+width: 210px;
+height: 52px;
+align-items: center;
+background-color: #cc422f;
+display: flex;
+justify-content: center;
+gap: 15px;
+border-radius: 30px;
 
+}
+.plan{
+    color:white;
+    text-decoration: none;
 
-
-
-       
-        
+}
+.planin{
+    border: #c93e3e solid;
+    width: 210px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    
+}
+.planslec{
+    width:  160px;
+    height:50px;
+    
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #c93e3e;
+}
+.feat{
+    font-size: 10px;
+    
+}
+.features{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+.prix{
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+.pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-left: 30px;
+    
+    
+}
+.groupe-huit{
+    background-color: #fefefe;
+    width: 300px;
+    padding: 60px;
+    border: #9f9f9f solid;
+    border-radius: 40px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.dep{
+    margin-top: 70px;
+}
+.pour-placer{
+margin-left: 100px;
+}
+.prf1{
+    font-size: 60px;
+    color: #24557a;
+}   
+.prf2{
+    font-size: 16px;
+   
+}
+.pri{
+    font-size: 45px;
+    color: #55a1dc;
+}
+.per{
+    font-size: 20px;
+    color: #98a1a8;
+}
+.fet{
+    color:  #55a1dc;
+    font-size: 20px;
+}
