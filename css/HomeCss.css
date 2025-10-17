@@ -833,3 +833,14 @@ footer>div>img {
 .footer-right-buttom{
     margin-top: 20px;
 }
+#section-sup {
+  background-image: url("../images/page.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+  height: 130px;            
+  justify-content: center;  
+  align-items: center;      
+  color: white;             
+  text-transform: lowercase;
+}
