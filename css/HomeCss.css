@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     color: #333;
 }
 header{
@@ -323,6 +323,11 @@ input {
     font-size: 18px;
     color: #1774ba;
 }
+.cinq{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+}
 .btn-about-us{
     background-color: rgb(192, 93, 93);
     padding:20px;
@@ -359,14 +364,228 @@ input {
     color:#ffffff;
     font-size: 15px;
 }
-
-
-
+.quatrieme{
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    align-items: center;
   
- 
+   padding-bottom: 90px;
+}
+.groupe-quatre{
+    font-size:30px;
+    
+
+    
+}
+.cloring-blue{
+    color: #1774ba;
+    font-size: 90px;
+    margin-bottom: -30px; 
+}
+.par{
+    
+}
+.cinquieme{
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: -100px;
+    
+}
+.haut-cinq{
+    display: flex;
+    justify-content: center;
+    gap:250px
+}
+.right-cinq{
+    font-size: 20px;
+}
+.forr{
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 25px;
+}
 
 
 
+
+.btn-about-us{
+    background-color: rgb(192, 93, 93);
+    padding:20px;
+    border-radius: 36px;
+    text-align: left;
+    margin-right: 20px;
+    color: #de6161;
+    width: 240px;
+    text-decoration: none; 
+    font-size: 23px;
+}
+.for-src-us{
+    background-color: rgb(255, 255, 255);
+    border: rgb(209, 61, 61) solid 1px;
+    border-radius: 28px;
+    text-align: center;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    align-content: center; 
+    margin-top: 15px;
+    color:  rgb(209, 61, 61) solid 1px;   
+}
+
+
+.number{
+    font-size: 70px;
+    margin-top: -5px;
+    color: #7ad6e9;
+}
+.to-icon-cinq{
+    display: flex;
+    gap:200px;
+    align-items: flex-start;
+    margin-bottom: -40px;
+}
+.for-cinquieme{
+    background-color: #eae9e9;
+    border-radius: 20px;
+    padding-left: 70px;
+    padding-top: 120px;
+    padding-bottom: 5px;
+}
+.dental{
+    font-size: 30px;
+    color: #1774ba;
+}
+.font{
+    font-size: 20px;
+    color: #023054;
+    margin-bottom: 60px;
+}
+.haut-cinq{
+display: flex;
+gap:20px;
+    
+}
+.services{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    gap: 0px;
+    margin: 10px;
+    
+}
+.groupe-cinq{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    width: 350px;
+    height: 360px;
+    margin-bottom: 50px;
+   
+}
+.btn-explore{
+    color: #c93e3e;
+}
+
+.for-srcc{
+    background-color: rgb(223, 81, 81);
+    border-radius: 28px;
+    text-align: center;
+    align-items: center;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-content: center; 
+    margin-top: 15px;  
+    margin:auto;
+    margin-bottom: 200px; 
+}
+.troisieme-right .for-srcc{
+    align-items: center;
+}
+.haut-six{
+    text-align: center;
+}
+.about-us{
+    margin: auto;}
+.separation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px
+}
+.groupe-six{
+    background-color:  #eae9e9;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
+}
+.font1{
+    font-size: 39px;
+    color: #135485;
+}
+.font2{
+    font-size: 30px;
+    color: #c93e3e;
+}
+.font3{
+    font-size: 25px;
+}
+.sixieme{
+    margin: 70px;
+}
+.temp{
+    margin-top: 100px;
+}
+.part{
+    background-color: #d0dee6;
+    gap:27px;
+    width: 260px;
+    margin-top: 100px;
+}
+.us{
+    color: #1774ba;
+}
+.separation7{
+    background: url(../images/backround6.png);
+    background-repeat: no-repeat;
+    margin-top: -150px;
+    height: 100vh;
+    
+    color: #ffffff;
+   background-size: contain;
+   background-position: center;
+   align-items: flex-start;
+   
+}
+.left-sept{
+    width: 700px;
+    margin-left: 800 px;
+    
+    margin-left: 50px;
+}
+.septieme{
+    background-color: #ffffff;
+    margin: 40px;
+    text-align: center;   
+}
+.left-sept h1{
+    font-size: 62px;
+    margin-top: 130px;
+    padding-left: 100px px;
+}
+.left-sept P{
+    font-size: 26px;
+    margin-left: 80 px;
+}
+.for-huitieme{
+    padding: 60px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
 
 
 
