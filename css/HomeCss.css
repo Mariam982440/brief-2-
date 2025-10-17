@@ -658,8 +658,7 @@ border-radius: 30px;
     border-radius: 40px ;
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    
+    gap: 10px;
 }
 .dep{
     margin-top: 70px;
@@ -686,4 +685,62 @@ margin-left: 100px;
 .fet{
     color:  #55a1dc;
     font-size: 20px;
+}
+.for-huitieme{
+    margin:40px;
+}
+.abs{
+    width: 400px;
+    margin-left: -5px;
+
+}
+.for-neufieme{
+    background: #ffffff;
+    border-radius: 40px;
+    border: red solid;
+    margin: 50px;
+    
+}
+.neufieme{
+    background-image: url(../images/backround8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    
+}
+.app-t{
+
+}
+.appform form{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+    padding-left: 130px;
+    margin-top: -50px;
+}
+.groupe-case input{
+    width: 400px;
+    border: #717070 solid 2px;
+}
+.groupe-case select{
+    width: 430px;
+    height: 60px;
+    border: #717070 solid 2px;
+}
+.neuf-title{
+    margin-top:90px ;
+}
+.send{
+    width: 1030px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.desc{
+   margin-left: 123px;
+   margin-top: 40px;
+}
+.note{
+    width: 1000px;
+    height: 150px;
+    border: #3786a1 solid 2px;
 }
