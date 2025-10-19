@@ -29,16 +29,26 @@
                     </ul>
                 </nav>
                 <div class="for-search">
+                    <form class="search-bar" action="#" method="get">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5 11C5 7.691 7.691 5 11 5C14.309 5 17 7.691 17 11C17 14.309 14.309 17 11 17C7.691 17 5 14.309 5 11ZM20.707 19.293L17.312 15.897C18.365 14.543 19 12.846 19 11C19 6.589 15.411 3 11 3C6.589 3 3 6.589 3 11C3 15.411 6.589 19 11 19C12.846 19 14.543 18.365 15.897 17.312L19.293 20.707C19.488 20.902 19.744 21 20 21C20.256 21 20.512 20.902 20.707 20.707C21.098 20.316 21.098 19.684 20.707 19.293Z"
+                                fill="#FAFAFA" />
+                            <mask id="mask0_1034_488" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="3" y="3"
+                                width="19" height="18">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5 11C5 7.691 7.691 5 11 5C14.309 5 17 7.691 17 11C17 14.309 14.309 17 11 17C7.691 17 5 14.309 5 11ZM20.707 19.293L17.312 15.897C18.365 14.543 19 12.846 19 11C19 6.589 15.411 3 11 3C6.589 3 3 6.589 3 11C3 15.411 6.589 19 11 19C12.846 19 14.543 18.365 15.897 17.312L19.293 20.707C19.488 20.902 19.744 21 20 21C20.256 21 20.512 20.902 20.707 20.707C21.098 20.316 21.098 19.684 20.707 19.293Z"
+                                    fill="white" />
+                            </mask>
+                            <g mask="url(#mask0_1034_488)">
+                                <rect width="24" height="24" fill="white" />
+                            </g>
+                        </svg>
 
-
-                    <div class="search-container">
-
-                        <form class="search-bar" action="#" method="get">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <input type="text" placeholder="search" name="search">
-                        </form>
-                    </div>
+                        <input  id="search-white" type="text" placeholder="search" name="search">
+                    </form>
                 </div>
+
             </header>
 
             <section>
@@ -758,9 +768,10 @@
             </div>
             <div class="pricing">
                 <div class="groupe-huit">
-                    
+
                     <div class="prf1">Join Room</div>
-                    <div class="prf2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus ex,
+                    <div class="prf2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus
+                        ex,
                         id
                         ullamcorper massa accumsan volutpat. </div>
                     <div class="prix">
@@ -770,8 +781,8 @@
                     <svg width="320" height="2" viewBox="0 0 320 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="-4.37114e-08" y1="1.45508" x2="320" y2="1.45505" stroke="#C8C8C8" />
                     </svg>
-                    
-                    <div>
+
+                    <div id="for-features">
                         <div class="fet">Features</div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
@@ -780,67 +791,75 @@
                         </div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
-                            <p>Bedside Cabinet</p>
+                            <p>Waiting Chair</p>
 
                         </div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
-                            <p>Bedside Cabinet</p>
+                            <p>Bathroom (Hot & Cold Water)</p>
 
                         </div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
-                            <p>Bedside Cabinet</p>
+                            <p>TV LED </p>
 
                         </div>
                     </div>
-                    
-                    <div class="planin">
-                        <label for="doctor-type">features </label>
+                    <div id="for-btn">
+                        <div class="planin">
+                            <label for="doctor-type">features </label>
 
-                        <select id="doctor-type" class="planslec" name="doctor-type">
-                            <i class="fa-solid fa-house-medical"></i>
-                            <option class="feat">See More Features</option>
+                            <select id="doctor-type" class="planslec" name="doctor-type">
+                                <i class="fa-solid fa-house-medical"></i>
+                                <option class="feat">See More Features</option>
 
-                        </select>
-                    </div>
-                    <p class="pour-placer">or</p>
-                    <div class="choose">
-                        <a class="plan" href="services.html">Choose plan</a>
-                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M15.4943 6.82912C15.4943 6.37162 15.1243 5.99912 14.666 5.99662L8.00516 5.95496H8.00016C7.54183 5.95496 7.17016 6.32496 7.16683 6.78329C7.1635 7.24329 7.53433 7.61912 7.99516 7.62162L12.6268 7.65079L5.74433 14.5325C5.4185 14.8583 5.4185 15.3858 5.74433 15.7108C5.90683 15.8741 6.12016 15.955 6.3335 15.955C6.54683 15.955 6.76016 15.8741 6.92266 15.7108L13.8293 8.80412L13.8335 13.4558C13.8335 13.9158 14.2068 14.2883 14.6668 14.2883H14.6677C15.1277 14.2883 15.5002 13.9141 15.5002 13.4541L15.4943 6.82912Z"
-                                fill="white" />
-                            <mask id="mask0_1034_617" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="5"
-                                width="11" height="11">
+                            </select>
+                        </div>
+
+                        <p class="pour-placer">or</p>
+                        <div class="choose">
+                            <a class="plan" href="services.html">Choose plan</a>
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M15.4943 6.82912C15.4943 6.37162 15.1243 5.99912 14.666 5.99662L8.00516 5.95496H8.00016C7.54183 5.95496 7.17016 6.32496 7.16683 6.78329C7.1635 7.24329 7.53433 7.61912 7.99516 7.62162L12.6268 7.65079L5.74433 14.5325C5.4185 14.8583 5.4185 15.3858 5.74433 15.7108C5.90683 15.8741 6.12016 15.955 6.3335 15.955C6.54683 15.955 6.76016 15.8741 6.92266 15.7108L13.8293 8.80412L13.8335 13.4558C13.8335 13.9158 14.2068 14.2883 14.6668 14.2883H14.6677C15.1277 14.2883 15.5002 13.9141 15.5002 13.4541L15.4943 6.82912Z"
                                     fill="white" />
-                            </mask>
-                            <g mask="url(#mask0_1034_617)">
-                                <rect x="0.5" y="0.955078" width="20" height="20" fill="white" />
-                            </g>
-                        </svg>
+                                <mask id="mask0_1034_617" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5"
+                                    y="5" width="11" height="11">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M15.4943 6.82912C15.4943 6.37162 15.1243 5.99912 14.666 5.99662L8.00516 5.95496H8.00016C7.54183 5.95496 7.17016 6.32496 7.16683 6.78329C7.1635 7.24329 7.53433 7.61912 7.99516 7.62162L12.6268 7.65079L5.74433 14.5325C5.4185 14.8583 5.4185 15.3858 5.74433 15.7108C5.90683 15.8741 6.12016 15.955 6.3335 15.955C6.54683 15.955 6.76016 15.8741 6.92266 15.7108L13.8293 8.80412L13.8335 13.4558C13.8335 13.9158 14.2068 14.2883 14.6668 14.2883H14.6677C15.1277 14.2883 15.5002 13.9141 15.5002 13.4541L15.4943 6.82912Z"
+                                        fill="white" />
+                                </mask>
+                                <g mask="url(#mask0_1034_617)">
+                                    <rect x="0.5" y="0.955078" width="20" height="20" fill="white" />
+                                </g>
+                            </svg>
 
 
 
+                        </div>
                     </div>
-                    
-                    
+
+
                 </div>
                 <div class="groupe-huit">
-                    <div class="prf1">Join Room</div>
-                    <div class="prf2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus ex,
+                    <div class="vip">
+                        <div class="prf1">VIP</div>
+                        <p class="recommend">(Recommended)</p>
+                    </div>
+                    <div class="prf2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus
+                        ex,
                         id
                         ullamcorper massa accumsan volutpat. </div>
                     <div class="prix">
-                        <div class="pri">$19.3</div>
+                        <div class="pri">$35.5</div>
                         <div class="per">/ Person</div>
                     </div>
                     <svg width="320" height="2" viewBox="0 0 320 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="-4.37114e-08" y1="1.45508" x2="320" y2="1.45505" stroke="#C8C8C8" />
                     </svg>
-                    <div>
+
+                    <div id="for-features">
                         <div class="fet">Features</div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
@@ -849,65 +868,73 @@
                         </div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
-                            <p>Bedside Cabinet</p>
+                            <p>Waiting Chair</p>
 
                         </div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
-                            <p>Bedside Cabinet</p>
+                            <p>Bathroom (Hot & Cold Water)</p>
 
                         </div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
-                            <p>Bedside Cabinet</p>
+                            <p>TV LED + WIFI</p>
 
                         </div>
                     </div>
-                    <div class="planin">
-                        <label for="doctor-type">features </label>
+                    <div id="for-btn">
+                        <div class="planin">
+                            <label for="doctor-type">features </label>
 
-                        <select id="doctor-type" class="planslec" name="doctor-type">
-                            <i class="fa-solid fa-house-medical"></i>
-                            <option class="feat">See More Features</option>
+                            <select id="doctor-type" class="planslec" name="doctor-type">
+                                <i class="fa-solid fa-house-medical"></i>
+                                <option class="feat">See More Features</option>
 
-                        </select>
-                    </div>
-                    <p class="pour-placer">or</p>
-                    <div class="choose">
-                        <a class="plan" href="services.html">Choose plan</a>
-                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M15.4943 6.82912C15.4943 6.37162 15.1243 5.99912 14.666 5.99662L8.00516 5.95496H8.00016C7.54183 5.95496 7.17016 6.32496 7.16683 6.78329C7.1635 7.24329 7.53433 7.61912 7.99516 7.62162L12.6268 7.65079L5.74433 14.5325C5.4185 14.8583 5.4185 15.3858 5.74433 15.7108C5.90683 15.8741 6.12016 15.955 6.3335 15.955C6.54683 15.955 6.76016 15.8741 6.92266 15.7108L13.8293 8.80412L13.8335 13.4558C13.8335 13.9158 14.2068 14.2883 14.6668 14.2883H14.6677C15.1277 14.2883 15.5002 13.9141 15.5002 13.4541L15.4943 6.82912Z"
-                                fill="white" />
-                            <mask id="mask0_1034_617" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="5"
-                                width="11" height="11">
+                            </select>
+                        </div>
+
+                        <p class="pour-placer">or</p>
+                        <div class="choose">
+                            <a class="plan" href="services.html">Choose plan</a>
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M15.4943 6.82912C15.4943 6.37162 15.1243 5.99912 14.666 5.99662L8.00516 5.95496H8.00016C7.54183 5.95496 7.17016 6.32496 7.16683 6.78329C7.1635 7.24329 7.53433 7.61912 7.99516 7.62162L12.6268 7.65079L5.74433 14.5325C5.4185 14.8583 5.4185 15.3858 5.74433 15.7108C5.90683 15.8741 6.12016 15.955 6.3335 15.955C6.54683 15.955 6.76016 15.8741 6.92266 15.7108L13.8293 8.80412L13.8335 13.4558C13.8335 13.9158 14.2068 14.2883 14.6668 14.2883H14.6677C15.1277 14.2883 15.5002 13.9141 15.5002 13.4541L15.4943 6.82912Z"
                                     fill="white" />
-                            </mask>
-                            <g mask="url(#mask0_1034_617)">
-                                <rect x="0.5" y="0.955078" width="20" height="20" fill="white" />
-                            </g>
-                        </svg>
+                                <mask id="mask0_1034_617" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5"
+                                    y="5" width="11" height="11">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M15.4943 6.82912C15.4943 6.37162 15.1243 5.99912 14.666 5.99662L8.00516 5.95496H8.00016C7.54183 5.95496 7.17016 6.32496 7.16683 6.78329C7.1635 7.24329 7.53433 7.61912 7.99516 7.62162L12.6268 7.65079L5.74433 14.5325C5.4185 14.8583 5.4185 15.3858 5.74433 15.7108C5.90683 15.8741 6.12016 15.955 6.3335 15.955C6.54683 15.955 6.76016 15.8741 6.92266 15.7108L13.8293 8.80412L13.8335 13.4558C13.8335 13.9158 14.2068 14.2883 14.6668 14.2883H14.6677C15.1277 14.2883 15.5002 13.9141 15.5002 13.4541L15.4943 6.82912Z"
+                                        fill="white" />
+                                </mask>
+                                <g mask="url(#mask0_1034_617)">
+                                    <rect x="0.5" y="0.955078" width="20" height="20" fill="white" />
+                                </g>
+                            </svg>
 
 
 
+                        </div>
                     </div>
-                    <div></div>
+
+
                 </div>
                 <div class="groupe-huit">
-                    <div class="prf1">Join Room</div>
-                    <div class="prf2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus ex,
+
+                    <div class="prf1">VVIP Room</div>
+                    <div class="prf2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit metus
+                        ex,
                         id
                         ullamcorper massa accumsan volutpat. </div>
                     <div class="prix">
-                        <div class="pri">$19.3</div>
+                        <div class="pri">$50.6</div>
                         <div class="per">/ Person</div>
                     </div>
                     <svg width="320" height="2" viewBox="0 0 320 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <line x1="-4.37114e-08" y1="1.45508" x2="320" y2="1.45505" stroke="#C8C8C8" />
                     </svg>
-                    <div>
+
+                    <div id="for-features">
                         <div class="fet">Features</div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
@@ -916,51 +943,56 @@
                         </div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
-                            <p>Bedside Cabinet</p>
+                            <p>Waiting Chair + Sofa</p>
 
                         </div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
-                            <p>Bedside Cabinet</p>
+                            <p>Bathroom (Hot & Cold Water)</p>
 
                         </div>
                         <div class="features">
                             <img src="../images/checkmark.png" alt="">
-                            <p>Bedside Cabinet</p>
+                            <p>TV LED + WIFI</p>
 
                         </div>
                     </div>
-                    <div class="planin">
-                        <label for="doctor-type">features </label>
+                    <div id="for-btn">
+                        <div class="planin">
+                            <label for="doctor-type">features </label>
 
-                        <select id="doctor-type" class="planslec" name="doctor-type">
-                            <i class="fa-solid fa-house-medical"></i>
-                            <option class="feat">See More Features</option>
+                            <select id="doctor-type" class="planslec" name="doctor-type">
+                                <i class="fa-solid fa-house-medical"></i>
+                                <option class="feat">See More Features</option>
 
-                        </select>
-                    </div>
-                    <p class="pour-placer">or</p>
-                    <div class="choose">
-                        <a class="plan" href="services.html">Choose plan</a>
-                        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M15.4943 6.82912C15.4943 6.37162 15.1243 5.99912 14.666 5.99662L8.00516 5.95496H8.00016C7.54183 5.95496 7.17016 6.32496 7.16683 6.78329C7.1635 7.24329 7.53433 7.61912 7.99516 7.62162L12.6268 7.65079L5.74433 14.5325C5.4185 14.8583 5.4185 15.3858 5.74433 15.7108C5.90683 15.8741 6.12016 15.955 6.3335 15.955C6.54683 15.955 6.76016 15.8741 6.92266 15.7108L13.8293 8.80412L13.8335 13.4558C13.8335 13.9158 14.2068 14.2883 14.6668 14.2883H14.6677C15.1277 14.2883 15.5002 13.9141 15.5002 13.4541L15.4943 6.82912Z"
-                                fill="white" />
-                            <mask id="mask0_1034_617" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5" y="5"
-                                width="11" height="11">
+                            </select>
+                        </div>
+
+                        <p class="pour-placer">or</p>
+                        <div class="choose">
+                            <a class="plan" href="services.html">Choose plan</a>
+                            <svg width="21" height="21" viewBox="0 0 21 21" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
                                     d="M15.4943 6.82912C15.4943 6.37162 15.1243 5.99912 14.666 5.99662L8.00516 5.95496H8.00016C7.54183 5.95496 7.17016 6.32496 7.16683 6.78329C7.1635 7.24329 7.53433 7.61912 7.99516 7.62162L12.6268 7.65079L5.74433 14.5325C5.4185 14.8583 5.4185 15.3858 5.74433 15.7108C5.90683 15.8741 6.12016 15.955 6.3335 15.955C6.54683 15.955 6.76016 15.8741 6.92266 15.7108L13.8293 8.80412L13.8335 13.4558C13.8335 13.9158 14.2068 14.2883 14.6668 14.2883H14.6677C15.1277 14.2883 15.5002 13.9141 15.5002 13.4541L15.4943 6.82912Z"
                                     fill="white" />
-                            </mask>
-                            <g mask="url(#mask0_1034_617)">
-                                <rect x="0.5" y="0.955078" width="20" height="20" fill="white" />
-                            </g>
-                        </svg>
+                                <mask id="mask0_1034_617" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="5"
+                                    y="5" width="11" height="11">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M15.4943 6.82912C15.4943 6.37162 15.1243 5.99912 14.666 5.99662L8.00516 5.95496H8.00016C7.54183 5.95496 7.17016 6.32496 7.16683 6.78329C7.1635 7.24329 7.53433 7.61912 7.99516 7.62162L12.6268 7.65079L5.74433 14.5325C5.4185 14.8583 5.4185 15.3858 5.74433 15.7108C5.90683 15.8741 6.12016 15.955 6.3335 15.955C6.54683 15.955 6.76016 15.8741 6.92266 15.7108L13.8293 8.80412L13.8335 13.4558C13.8335 13.9158 14.2068 14.2883 14.6668 14.2883H14.6677C15.1277 14.2883 15.5002 13.9141 15.5002 13.4541L15.4943 6.82912Z"
+                                        fill="white" />
+                                </mask>
+                                <g mask="url(#mask0_1034_617)">
+                                    <rect x="0.5" y="0.955078" width="20" height="20" fill="white" />
+                                </g>
+                            </svg>
 
 
 
+                        </div>
                     </div>
-                    <div></div>
+
+
                 </div>
             </div>
 
@@ -1086,7 +1118,7 @@
             <div class="adresse">
                 <label for="adresse">Adresse</label>
                 <div class="for-email"><input placeholder="Email adresse" type="Adresse" id="date" name="date"></div>
-                <a class="btn-contact" url="contact.html">Contact</a>
+                <a id="cont" class="btn-contact" url="contact.html">Contact</a>
             </div>
             <p>Nullam ultrices lorem et augue placerat blandit. Nam nisl lacus, imperdiet quis dui pretium, pretium
                 vehicula turpis. Fusce scelerisque fermentum lacinia.</p>
