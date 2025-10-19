@@ -24,6 +24,8 @@ nav ul li a {
     font-weight: 500;
     color: #ddd;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
 }
 nav ul li a.active-page {
     color: #000000;
@@ -56,6 +58,8 @@ section {
     outline: none;
     background-color: #dddddd00;
     font-size:20px;
+    font-family: 'Poppins', sans-serif;
+
 }
 #search-white{
     color: white;
@@ -85,11 +89,13 @@ body{
     margin-top: 46px;
     margin-bottom: 20px;
     font-size: 24px;
+    font-family: 'Poppins', sans-serif;
     width: 315px;
 }
 .hero-subtitle {
     color: #ddd;
     font-size: 61px;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     margin-top: 34px;
     margin-bottom: 18px;
@@ -97,6 +103,7 @@ body{
 .hero-description{
     color: #ddd;
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     
     
 }
@@ -116,6 +123,7 @@ body{
     width: 240px;
     text-decoration: none; 
     font-size: 23px;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -127,6 +135,7 @@ body{
 .or{
     color:white;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     margin: 10px;
     margin-right: 30px;
 }
@@ -139,6 +148,8 @@ body{
     text-decoration: none;
     text-align: center;
     font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 .hours-container{
@@ -151,17 +162,22 @@ body{
     padding: 27px;
     color: #ddd;
     font-size: 38px;
+    
+    font-family: 'Poppins', sans-serif;
+
     border-radius: 20px;
     margin-right: 20px;
 }
 .hours-title{
     color: #ddd;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 15px;
 }
 .hours-detail{
     color: #ddd;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 15px;
 }
 
@@ -207,6 +223,7 @@ select {
   height: 50px;
   padding: 14px 15px;
   font-size: 15px;
+  font-family: 'Poppins', sans-serif;
   color: #555;
   border: 1px solid #ffffff;
   border-radius: 10px;
@@ -217,6 +234,7 @@ input {
   height: 30px;
   padding: 12px 15px;
   font-size: 15px;
+  font-family: 'Poppins', sans-serif;
   color: #555;
   border: 1px solid #ffffff;
   border-radius: 10px;
@@ -233,7 +251,13 @@ input {
     border-radius: 30px;
     width: 215px;
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 30px;
+    text-decoration: none;
+}
+.btn-check a{
+    color: #ffffff;
+    text-decoration: none;
 }
 .form-groupe {
     display: flex;
@@ -296,7 +320,7 @@ input {
 }
 .for-size20{
     font-size: 40px;
-   
+   font-family: 'Poppins', sans-serif;
     
     
 }
@@ -304,6 +328,7 @@ input {
     position:relative;
     top: -35px;
     font-size:25px;
+    font-family: 'Poppins', sans-serif;
     margin-top: -9px;
 }
 .about-us{
@@ -317,6 +342,7 @@ input {
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 24px;
+    font-family: 'Poppins', sans-serif;
     width: 125px;
 }
 .troisieme-right{
@@ -325,10 +351,12 @@ input {
 }
 .about-title{
     font-size: 45px;
+    font-family: 'Poppins', sans-serif;
     color: #1774ba;
 }
 .our-hospital{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .troisieme-right-down{
     border: #9f9f9f solid 2px;
@@ -338,6 +366,7 @@ input {
 .experience{
     text-align: center;
     font-size: 17px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 45px;
 }
 .troisieme-last{
@@ -347,6 +376,7 @@ input {
 }
 .troisieme-last p {
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     color: #1774ba;
 }
 .cinq{
@@ -364,6 +394,7 @@ input {
     width: 240px;
     text-decoration: none; 
     font-size: 23px;
+    font-family: 'Poppins', sans-serif;
 }
 .for-about-us{
     background-color: rgb(223, 81, 81);
@@ -389,6 +420,7 @@ input {
     text-decoration: none;
     color:#ffffff;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 .quatrieme{
     display: flex;
@@ -400,6 +432,7 @@ input {
 }
 .groupe-quatre{
     font-size:30px;
+    font-family: 'Poppins', sans-serif;
     
 
     
@@ -407,6 +440,7 @@ input {
 .cloring-blue{
     color: #1774ba;
     font-size: 90px;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: -30px; 
 }
 .par{
@@ -426,11 +460,13 @@ input {
 margin-left: 40px;}
 .right-cinq{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .forr{
     margin-top: 100px;
     margin-left: 200px;
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -446,6 +482,7 @@ margin-left: 40px;}
     width: 240px;
     text-decoration: none; 
     font-size: 23px;
+    font-family: 'Poppins', sans-serif;
 }
 .for-src-us{
     background-color: rgb(255, 255, 255);
@@ -466,6 +503,7 @@ margin-left: 40px;}
 
 .number{
     font-size: 70px;
+    font-family: 'Poppins', sans-serif;
     margin-top: -5px;
     color: #7ad6e9;
 }
@@ -484,10 +522,12 @@ margin-left: 40px;}
 }
 .dental{
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     color: #1774ba;
 }
 .font{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     color: #023054;
     margin-bottom: 60px;
 }
@@ -552,14 +592,17 @@ gap:20px;
 }
 .font1{
     font-size: 39px;
+    font-family: 'Poppins', sans-serif;
     color: #135485;
 }
 .font2{
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     color: #c93e3e;
 }
 .font3{
     font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 .sixieme{
     margin: 70px;
@@ -612,11 +655,13 @@ gap:20px;
 }
 .left-sept h1{
     font-size: 55px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 130px;
     padding-left: 100px px;
 }
 .left-sept P{
     font-size: 26px;
+    font-family: 'Poppins', sans-serif;
     margin-left: 80 px;
 }
 .for-huitieme{
@@ -633,6 +678,7 @@ gap:20px;
     text-decoration: none;
     color:#ffffff;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 .choose{
 
@@ -669,6 +715,7 @@ border-radius: 30px;
 }
 .feat{
     font-size: 10px;
+    font-family: 'Poppins', sans-serif;
     
 }
 .features{
@@ -714,6 +761,7 @@ margin-left: 115px;
 }
 .recommend{
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     color: #79c8e4;
 }
 .vip{
@@ -724,23 +772,28 @@ margin-left: 115px;
 }
 .prf1{
     font-size: 60px;
+    font-family: 'Poppins', sans-serif;
     color: #24557a;
 }   
 .prf2{
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
    
 }
 .pri{
     font-size: 45px;
+    font-family: 'Poppins', sans-serif;
     color: #55a1dc;
 }
 .per{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     color: #98a1a8;
 }
 .fet{
     color:  #55a1dc;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 #for-features{
     display: flex;
@@ -805,7 +858,8 @@ margin-left: 115px;
    margin-top: 40px;
 }
 .note{
-    width: 1000px;
+    width: 1064px;
+    
     height: 150px;
     border: #3786a1 solid 2px;
 }
@@ -834,6 +888,7 @@ footer>div>img {
     text-decoration: none;
     text-align: center;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 
 }
 .for-email input{
@@ -870,6 +925,7 @@ footer>div>img {
 }
 .footer-left p{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 50px;
     color: #649dd7;
 }
@@ -878,10 +934,12 @@ footer>div>img {
 }
 .footer-list{
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     color: #356596;
 }
 .parag{
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     color: #649dd7;
     text-decoration: none;
 }
@@ -890,6 +948,7 @@ footer>div>img {
 }
 .local{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
     color: #84929d;
 }
 .footer-right-buttom{
@@ -911,4 +970,16 @@ footer>div>img {
 }
 #search-white{
     color: white;
+}
+#contact-form{
+    background-color: #eeeeee;
+    padding-top: 80px;
+}
+.date-largeur{
+    width: 1100px;
+    height: 70px;
+}
+.contact-send{
+    width: 1100px;
+    margin-left: 130px;
 }
